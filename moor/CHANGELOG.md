@@ -1,3 +1,8 @@
+## 2.4.1
+
+- Moor will no longer wait for query stream listeners to receive a done event when closing a database
+  or transaction.
+
 ## 2.4.0
 
 - Support aggregate expressions and `group by` in the Dart api
